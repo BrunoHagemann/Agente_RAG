@@ -48,6 +48,19 @@ python agente_mercado.py
 
 ---
 
+6 . Rodar o servidor
+
+```
+python chat_web/app.py
+```
+
+Acessar o chat
+
+No seu próprio computador: 
+```
+http://localhost:5000`
+```
+
 ## Exemplo Prático de Funcionamento (RAG)
 
 o PDF de FAQ contenha essa regra de atendimento:
