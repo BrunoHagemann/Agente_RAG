@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+banco_faiss/
+meus_manuais/
+.git/
+.gitignore
+*.zip
