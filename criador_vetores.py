@@ -24,7 +24,7 @@ if __name__ == "__main__":
     
     pasta_pdfs = "meus_manuais"
     
-    print("--- INICIANDO PROCESSAMENTO DOS MANUAIS DO MERCADO CENTRAL 24H ---")
+    print("--- INICIANDO PROCESSAMENTO DOS MANUAIS ---")
     
     meus_chunks = preparar_documentos(pasta_pdfs)
     

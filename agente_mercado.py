@@ -68,7 +68,7 @@ if __name__ == "__main__":
     agente = iniciar_agente()
     
     if agente:
-        print("\n=== AGENTE DO MERCADO CENTRAL 24H PRONTO ===")
+        print("\n=================================")
         print("Digite 'sair' para encerrar.\n")
         
         while True:
