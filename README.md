@@ -69,26 +69,23 @@ o PDF de FAQ contenha essa regra de atendimento:
 
 "Pergunta: Como faço para trocar um produto com defeito?"
 
-"Resposta da IA: O cliente tem até 7 dias corridos após a compra para realizar a troca na recepção, apresentando o cupom fiscal e o produto na embalagem original."
+"Resposta da IA: Para casos que exigem reembolso ou resolução por falha de produto, a decisão depende primeiramente do Manual de Garantia de Produtos da BimBam Buy. Caso a garantia não se aplique, o caso pode seguir sob a política de devoluções, desde que exista elegibilidade por outra via."
 
 ---
 
 ## Status do Projeto
 O projeto está atualmente implantado e rodando em uma instância da Oracle Cloud Infrastructure (OCI).
 
-[![OCI](https://img.shields.io/badge/Hosted%20on-Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)]()
-
 ## Infraestrutura
 * **Serviço:** Compute Instance (Ubuntu)
 * **Provedor:** OCI (Oracle Cloud Infrastructure)
 
-* acesso em  http://0.0.0.0:8000
-* http://163.176.107.149:8000/
+* acesso em http://163.176.222.199:8501/
 
-<img width="1360" height="103" alt="image" src="https://github.com/user-attachments/assets/95166e05-6520-4c80-abca-2c930349dcb3" />
+---
 
-<img width="1361" height="710" alt="image" src="https://github.com/user-attachments/assets/f5426b62-fe93-40a7-bd62-0dd9a3a33545" />
+<img width="1655" height="948" alt="image" src="https://github.com/user-attachments/assets/43d01922-9ad4-4572-818c-b8eba78ffd81" />
 
-<img width="1525" height="352" alt="image" src="https://github.com/user-attachments/assets/1b9e505b-b39a-44e1-89ec-a0a4c1e8f85e" />
+
 
 
