@@ -61,6 +61,8 @@ No seu próprio computador:
 http://localhost:5000`
 ```
 
+---
+
 ## Exemplo Prático de Funcionamento (RAG)
 
 o PDF de FAQ contenha essa regra de atendimento:
@@ -68,3 +70,25 @@ o PDF de FAQ contenha essa regra de atendimento:
 "Pergunta: Como faço para trocar um produto com defeito?"
 
 "Resposta da IA: O cliente tem até 7 dias corridos após a compra para realizar a troca na recepção, apresentando o cupom fiscal e o produto na embalagem original."
+
+---
+
+## Status do Projeto
+O projeto está atualmente implantado e rodando em uma instância da Oracle Cloud Infrastructure (OCI).
+
+[![OCI](https://img.shields.io/badge/Hosted%20on-Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)]()
+
+## Infraestrutura
+* **Serviço:** Compute Instance (Ubuntu)
+* **Provedor:** OCI (Oracle Cloud Infrastructure)
+
+* acesso em  http://0.0.0.0:8000
+* http://163.176.107.149:8000/
+
+<img width="1360" height="103" alt="image" src="https://github.com/user-attachments/assets/95166e05-6520-4c80-abca-2c930349dcb3" />
+
+<img width="1361" height="710" alt="image" src="https://github.com/user-attachments/assets/f5426b62-fe93-40a7-bd62-0dd9a3a33545" />
+
+<img width="1525" height="352" alt="image" src="https://github.com/user-attachments/assets/1b9e505b-b39a-44e1-89ec-a0a4c1e8f85e" />
+
+
