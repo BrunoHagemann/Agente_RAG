@@ -61,10 +61,31 @@ No seu próprio computador:
 http://localhost:5000`
 ```
 
+---
+
 ## Exemplo Prático de Funcionamento (RAG)
 
 o PDF de FAQ contenha essa regra de atendimento:
 
 "Pergunta: Como faço para trocar um produto com defeito?"
 
-"Resposta da IA: O cliente tem até 7 dias corridos após a compra para realizar a troca na recepção, apresentando o cupom fiscal e o produto na embalagem original."
+"Resposta da IA: Para casos que exigem reembolso ou resolução por falha de produto, a decisão depende primeiramente do Manual de Garantia de Produtos da BimBam Buy. Caso a garantia não se aplique, o caso pode seguir sob a política de devoluções, desde que exista elegibilidade por outra via."
+
+---
+
+## Status do Projeto
+O projeto está atualmente implantado e rodando em uma instância da Oracle Cloud Infrastructure (OCI).
+
+## Infraestrutura
+* **Serviço:** Compute Instance (Ubuntu)
+* **Provedor:** OCI (Oracle Cloud Infrastructure)
+
+* acesso em http://163.176.222.199:8501/
+
+---
+
+<img width="1655" height="948" alt="image" src="https://github.com/user-attachments/assets/43d01922-9ad4-4572-818c-b8eba78ffd81" />
+
+
+
+
