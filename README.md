@@ -48,21 +48,6 @@ python agente_mercado.py
 
 ---
 
-6 . Rodar o servidor
-
-```
-python chat_web/app.py
-```
-
-Acessar o chat
-
-No seu próprio computador: 
-```
-http://localhost:5000`
-```
-
----
-
 ## Exemplo Prático de Funcionamento (RAG)
 
 o PDF de FAQ contenha essa regra de atendimento:
@@ -80,11 +65,13 @@ O projeto está atualmente implantado e rodando em uma instância da Oracle Clou
 * **Serviço:** Compute Instance (Ubuntu)
 * **Provedor:** OCI (Oracle Cloud Infrastructure)
 
-* acesso em http://163.176.222.199:8501/
-
+  Local URL: http://localhost:8501
+  Network URL: http://10.0.0.236:8501
+  External URL: http://163.176.107.149:8501
 ---
 
-<img width="1655" height="948" alt="image" src="https://github.com/user-attachments/assets/43d01922-9ad4-4572-818c-b8eba78ffd81" />
+<img width="1765" height="923" alt="image" src="https://github.com/user-attachments/assets/da9e6017-dc81-46fa-ab06-e1e998849d4f" />
+
 
 
 
