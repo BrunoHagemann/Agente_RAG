@@ -1,4 +1,5 @@
 import os
+import shutil
 import time
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFDirectoryLoader
@@ -53,6 +54,15 @@ for i in range(0, len(chunks), tamanho_lote):
         time.sleep(20)
 
 print("\n4. Salvando a 'memória' no seu computador...")
-banco_vetorial.save_local(pasta_banco)
+
+# Garante a limpeza previa e criação correta do diretório via Python
+caminho_absoluto_banco = os.path.abspath(pasta_banco)
+if os.path.exists(caminho_absoluto_banco):
+    shutil.rmtree(caminho_absoluto_banco)
+
+os.makedirs(caminho_absoluto_banco, exist_ok=True)
+
+# Salva usando o caminho absoluto resolvido
+banco_vetorial.save_local(caminho_absoluto_banco)
 
 print(f"\n SUCESSO! Banco de dados criado na pasta '{pasta_banco}'.")
